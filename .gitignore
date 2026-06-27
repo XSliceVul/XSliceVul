@@ -1,0 +1,15 @@
+# Ignore datasets (CSV/JSONL charts and texts)
+dataset/
+
+# Ignore Python byte-compile and caching files
+__pycache__/
+*.pyc
+
+# Ignore compiled shared libraries
+*.so
+
+# Ignore local evaluation logs
+model/result.txt
+model/random_seeds.log
+
+.idea/
